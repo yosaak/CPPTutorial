@@ -1,0 +1,21 @@
+#if 0
+I am following this website in this doc http://www.vishalchovatiya.com/composite-design-pattern-in-modern-cpp/
+#endif
+
+#include <iostream>
+/*includes all headers*/
+#include<bits/stdc++.h>
+
+#if 0
+Build a car
+Infotainment
+Control parts: sterring, brake, clutch, airbag
+Info: make, model, language, spec
+Body: frontseat, backseat
+Make many cars
+
+make classes and inherit from them
+Apply basic things, then do a comparison
+
+
+#endif
