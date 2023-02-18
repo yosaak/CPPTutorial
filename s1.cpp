@@ -1,3 +1,5 @@
+#include "s1.h"
+
 #include <iostream>
 #include <vector>
 
