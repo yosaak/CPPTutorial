@@ -1,2 +1,2 @@
-This is a WIP# CPPTutorial
+This is a WorkInProgress# CPPTutorial
 A self study on CPP
