@@ -24,19 +24,24 @@
 class CtrlPart
 {
     public:
-    CtrlPart(std::string n);
+    CtrlPart(std::string name);
     int count;
-}
+};
 
 class BodyPart
 {
 //take the latest available goods and use that to construct
 //stack
+public:
+    std::string name;
+    BodyPart(std::string name);
 };
 
 class ConstructCar: public BodyPart//, public master{}
 {
-
+    public:
+    ConstructCar(std::string name):BodyPart(std::string name);
+    //ConstructCar(std::string name);
 };
 
 class Info

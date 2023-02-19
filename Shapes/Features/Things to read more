@@ -1,0 +1,9 @@
+swap ranges. it uses iterators
+
+Trivial, POD https://learn.microsoft.com/en-us/cpp/cpp/trivial-standard-layout-and-pod-types?source=recommendations&view=msvc-170
+
+Variadic things
+
+std::back_inserter(vec2)
+
+size_t

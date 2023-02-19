@@ -25,8 +25,6 @@ using namespace std;
 //    Forward *forward_class_ptr; is this allowed
 
 //template<typename X, typename Y, typename Z>
-class CtrlPart
-{
 #if 0
 Template<typename X, typename Y, typename Z>
 Z constructGrp(X x,Y y)
@@ -37,28 +35,29 @@ Z constructGrp(X x,Y y)
     return z;
 }
 #endif
-
-public:
-    CtrlPart(string n);
-    int count;
-};
-
-class BodyPart
+CtrlPart::CtrlPart(string n)
 {
+
+}
+
+BodyPart::BodyPart(std::string name):name{name}
+{
+    int x=5;
+    x=6;
 //take the latest available goods and use that to construct
 //stack
-};
+}
 
 class ConstructCar: public BodyPart//, public master{}
 {
 
-};
+}
 
 class Info
 {
 //tree
 //use reference
-};
+}
 
 class Car:public CtrlPart("a"),private Info, public BodyPart
 {
@@ -68,7 +67,7 @@ class Car:public CtrlPart("a"),private Info, public BodyPart
         
     }
     
-};
+}
 
 int main()
 {

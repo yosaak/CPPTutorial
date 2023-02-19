@@ -20,7 +20,7 @@ int main()
 template <typename... T>
 auto sum(T... t)
 {
-    std::cout<<  t...<<std::endl; //With this line variadic parameter throws error but still prints output. How?
+    //std::cout<<  t...<<std::endl; //With this line variadic parameter throws error but still prints output. How?
     return (t+...);
 }
 
